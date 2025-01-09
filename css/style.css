@@ -323,9 +323,20 @@ p {
 .atendimento .fale-conosco form button:hover {
   background-color: darkblue;
 }
-.atendimento .footer {
+/*.atendimento footer {
+  height: 100px;
+  width: 100%;
+  color: #000;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(216, 216, 216);
+  border: solid #330b0b;
+}*/
+.footer {
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer .footer-content {
+  font-size: 14px;
+  color: #000080;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */
