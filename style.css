@@ -90,7 +90,7 @@ header a:hover {
   border: none;
   border-radius: 6px;
   font-family: "Oswald";
-  cursor: pointer;
+  cursor: button;
 }
 
 .button:hover {
@@ -324,4 +324,13 @@ figcaption {
   font-size: 14px;
   color: #000080;
   font-weight: normal;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    display: block;
+  }
+  header nav {
+    display: block;
+  }
 }/*# sourceMappingURL=style.css.map */

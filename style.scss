@@ -84,7 +84,7 @@ header a:hover {
   border: none;
   border-radius: 6px;
   font-family: "Oswald";
-  cursor: pointer;
+  cursor: button;
 }
 
 .button:hover {
@@ -250,7 +250,7 @@ p {
   flex: 1 1 calc(50% - 15px);
   text-align: center;
 }
-figcaption{
+figcaption {
   font-family: "Oswald";
   font-size: 20px;
   font-weight: 500;
@@ -258,7 +258,6 @@ figcaption{
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 .unidades img {
   max-width: 100%;
@@ -315,4 +314,13 @@ figcaption{
   font-size: 14px;
   color: #000080;
   font-weight: normal;
+}
+
+@media screen and (max-width:500px){
+  .header{
+    display: block;
+  }
+  header nav{
+    display: block;
+  }
 }
